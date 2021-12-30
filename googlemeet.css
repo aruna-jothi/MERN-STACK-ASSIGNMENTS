@@ -1,0 +1,80 @@
+.container{
+    display: flex;
+    background-color: black;
+}
+.head{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: cadetblue;
+    padding: 10px;
+}
+.rec{
+    display: flex;
+    width: 10%;
+    padding-right: 10px;
+}
+.rec button{
+    display: flex;
+    background-color: red;
+    width: 100%;
+    padding: 10px;
+}
+.present{
+    display: flex;
+    width: 100%;
+
+}
+.present input{
+    width: 100%;
+}
+.main{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(230, 157, 157);
+}
+.left{
+    display: flex;
+    width: 60%;
+    background-color: silver;
+}
+.right{
+    display: flex;
+    width: 40%;
+    background-color: black;
+    align-items: flex-start;
+}
+.r1{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.img1{
+    width: 46%;
+    height: 90px;
+    margin: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.img1 img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.foot
+{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    height: 50px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    color: white;
+}
