@@ -31,7 +31,6 @@
 .main{
     display: flex;
     width: 100%;
-    height: 300px;
     background-color: rgb(230, 157, 157);
 }
 .left{
@@ -78,3 +77,35 @@
     width: 30%;
     color: white;
 }
+
+/*Mobile*/
+    
+@media screen and (max-width:480px){
+    .head{
+        display: flex;
+        flex-wrap: wrap;
+        height:auto
+    }
+    .rec{
+        width: auto;
+        margin-bottom: 5px;
+    }
+    .right{
+        flex-wrap: wrap;
+    }
+    .img1{
+        width: 100%;
+    }
+    .foot{
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .title{
+        width: 100%;
+        margin: 2px;
+        justify-content: flex-start;   
+         
+    }
+}
+
